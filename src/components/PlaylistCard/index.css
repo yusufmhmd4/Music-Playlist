@@ -1,0 +1,64 @@
+.music-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  width: 90%;
+  margin: 10px auto;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.music-name-container {
+  display: flex;
+  flex-direction: column;
+}
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.music-image {
+  width: 145px;
+  margin-right: 30px;
+}
+.duration {
+  margin-right: 30px;
+}
+.name {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.genre {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #3b82f6;
+  margin-top: 10px;
+}
+.duration {
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 18px;
+  align-self: center;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+.delete-icon {
+  color: #ffffff;
+  font-size: 20px;
+}

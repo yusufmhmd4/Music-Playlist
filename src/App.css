@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  width: 100vw;
+  height: 100vh;
+}
+.singer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 40vh;
+  width: 100vw;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.singer-container-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.singer-container-occupation {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.playList-container {
+  background-color: #152850;
+  height: 60vh;
+  padding: 5px;
+  overflow: auto;
+  width: 100%;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+}
+.search-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.search-icon-container {
+  border: 1px solid #cbd5e1;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  height: 35px;
+  width: 100%;
+  border-radius: 3px;
+  width: 240px;
+}
+.search {
+  background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-family: roboto;
+  font-weight: 500;
+  padding: 10px 10px;
+  color: #ffffff;
+}
+.search-icon {
+  height: 16px;
+  width: 50px;
+  align-self: center;
+  color: #ffffff;
+}
+.no-song {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: auto;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  min-height: 45vh;
+}
